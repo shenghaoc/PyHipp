@@ -2,7 +2,7 @@ import DataProcessingTools as DPT
 import matplotlib.pyplot as plt
 import hickle as hkl
 import os
-Import numpy as np
+import numpy as np
 
 class Waveform(DPT.DPObject):
     # Please change the class name according to your needs
@@ -72,7 +72,7 @@ class Waveform(DPT.DPObject):
         # .........................................
         # ..................code...................
         # .........................................
-		self.data = self.data + wf.data
+        self.data = self.data + wf.data
         
     def plot(self, i = None, ax = None, getNumEvents = False, getLevels = False,\
              getPlotOpts = False, overlay = False, **kwargs):
